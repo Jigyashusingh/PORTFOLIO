@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="time"],
+  button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  input[type="text"],
+  input[type="time"] {
+    width: 200px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  li span {
+    font-weight: bold;
+  }
+  
+  .task-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .task-actions button {
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .task-actions button:hover {
+    color: #e74c3c;
+  }
+  
+  /* Additional Styling */
+  
+  .input-container {
+    margin-bottom: 30px;
+  }
+  
+  input[type="text"],
+  input[type="time"] {
+    padding: 12px;
+    background-color: #ecf0f1;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="time"]:focus {
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  button {
+    padding: 12px 20px;
+    font-weight: bold;
+  }
+  
+  ul {
+    padding: 20px;
+  }
+  
+  li {
+    padding: 15px;
+  }
+  
+  li span {
+    font-size: 18px;
+  }
+  
+  li:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .task-actions button {
+    font-size: 16px;
+  }
+  
